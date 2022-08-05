@@ -13,8 +13,8 @@ public class PDV {
 		DecimalFormat formatador = new DecimalFormat("#0.0");
 
 		// entrada1
-		System.out.println("PSV");
-		System.out.print("Valor Total: ");
+		System.out.println("PDV");
+		System.out.print("Valor total: ");
 		total = teclado.nextDouble();
 		System.out.print("Desconto(%): ");
 		desconto = teclado.nextDouble();
@@ -27,6 +27,7 @@ public class PDV {
 
 		// entrada2
 		System.out.println("_________________________________________");
+		System.out.println("");
 		System.out.print("Valor pago em dinheiro: ");
 		valorPago = teclado.nextDouble();
 
